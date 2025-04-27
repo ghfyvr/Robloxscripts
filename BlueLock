@@ -1,7 +1,4 @@
-if not (type(game) == "table" and type(game.GetService) == "function") then
-    print("Script is not running in Roblox - exiting safely")
-    return
-end
+
 
 warn = function() end
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
